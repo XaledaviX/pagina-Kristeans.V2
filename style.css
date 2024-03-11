@@ -1,8 +1,9 @@
 body{
     margin: 0px;
     background-color: #edecec;
-    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 }
+
 p{
     font-weight: 600;
 }
@@ -15,7 +16,7 @@ p{
 
 .search{
     background-color: #edecec;
-    border-color:black;
+    border: 1px solid black;
     height: 25px;
     width: 250px;
     margin: 20px;
@@ -79,6 +80,7 @@ nav ul li a img {
 
 /*//////////////////////////////////////////////////////////////////////////*/
 
+
 main h1{
     margin: 0;
     height: 135px;
@@ -88,7 +90,7 @@ main h1{
     color: #ffffff;
     background-image: url('./image/fondo-section3.jpg');
     background-size: cover;
-    height: 90%;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px; 
@@ -110,8 +112,7 @@ main h1{
 
 .main-content section div input{
     background-color: #a3b1e3;
-    border:#30479e;
-    border: 6px;
+    border: 3px solid black;
     height: 25px;
     width: 180px;
     margin: 5px;
